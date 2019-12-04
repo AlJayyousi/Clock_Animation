@@ -1,0 +1,128 @@
+@keyframes hours{
+from{transform: rotate(270deg);}
+to{transform: rotate(629deg);}
+
+}
+@keyframes minutes{
+from{transform: rotate(0deg);}
+to{transform: rotate(359deg);}
+
+}
+body{
+
+	background-color: #2e3131;
+	padding: 50px;
+}
+
+#main{
+background-color: #0f9a0f;
+width: 600px;
+height: 600px;
+
+border-radius: 36%;
+display: inline-block;
+perspective-origin: bottom;
+
+
+}
+#hour{
+	width: 20px;
+	height: 120px;
+	display: inline-block;
+	position:  relative;
+	bottom:  82px;
+	right: -10px;
+	background-color:  #D2691E	;
+	border-radius:50% 15% 	 ;
+
+	transform-origin: bottom;
+	animation:hours 36s infinite linear;
+	
+}
+#minute{
+	width: 20px;
+	height: 200px;
+	display: inline-block;
+	position:  relative;
+	bottom:  82px;
+	right: 14px;
+	background-color:  #8B4513	;
+	border-radius:50% 20% 	 ;
+	transform-origin: bottom;
+	animation:minutes 3s infinite linear;
+	
+}
+
+#clock12
+{
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: bolder;
+	width: 50px;
+	height: 50px;
+	border-radius:0 0 50% 50%;
+	background-color: #02002a;
+	color: #0f9a0f;
+	border: 2px dotted black;
+	margin-top: 20px
+}#clock3
+{
+	font-size: 35px;
+	line-height: 50px;
+	font-weight: bolder;
+	width: 50px;
+	height: 50px;
+	border-radius:50% 0 0  50%;
+	
+	border: 2px dotted black;
+	background-color: #02002a;
+	color: #0f9a0f;
+	position:relative;
+	left: 250px;
+	top:145px;
+}
+#clock9
+{font-size: 35px;
+	line-height: 50px;
+	font-weight: bolder;
+	width: 50px;
+	height: 50px;
+	border-radius:0 50% 50% 0;
+	background-color: #315adf;
+	border: 2px dotted black;
+	background-color: #02002a;
+	color: #0f9a0f;
+	position:relative;
+	right: +250px;
+	top:199px;
+	
+}
+#clock6
+{font-size: 35px;
+	line-height: 50px;
+	font-weight: bolder;
+	width: 50px;
+	height: 50px;
+	border-radius:50% 50% 0 0;
+	
+	border: 2px dotted black;
+	background-color: #02002a;
+	color: #0f9a0f;
+	position:relative;
+	right: 0px;
+	top:150px;
+	
+}#clockc
+{
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	background-color: #02002a;
+	
+	position:relative;
+	right: 0px;
+	bottom:165px;
+	
+}
+
+	
